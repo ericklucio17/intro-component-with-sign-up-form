@@ -1,6 +1,6 @@
 # intro component with sign-up form
 
-Challenge in Frontend Mentor - Intro component with sign up form
+Challenge in Frontend Mentor - Intro component with sign up form.
 
 [frontendmentor.io](https://www.frontendmentor.io).
 
@@ -15,6 +15,7 @@ Challenge in Frontend Mentor - Intro component with sign up form
 * JavaScript 
 
     > All in the latest and most updated versions.
+    
     > Developed using mobile first.
 
 ---
