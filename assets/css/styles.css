@@ -1,0 +1,168 @@
+:root {
+    --red: hsl(0, 100%, 74%);
+    --green: hsl(154, 59%, 51%);
+    --blue: hsl(248, 32%, 49%);
+    --dark-blue: hsl(249, 10%, 26%);
+    --grayish-blue: hsl(246, 25%, 77%);
+    --dark: hsl(0, 0%, 0%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Mobiel First Web Design */
+
+body {
+    background-image: url("../images/bg-intro-mobile.png");
+    background-color: var(--red);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    margin: 5%;
+}
+
+.container-left {
+    color: var(--white);
+    text-align: center;
+}
+
+.container-left h1 {
+    margin-top: 10%;
+    font-weight: 700;
+}
+
+.container-left p {
+    padding: 0 10px;
+    line-height: 25px;
+}
+
+/* .container-right {
+
+} */
+
+.offer {
+    background: var(--blue);
+    margin-top: 15%;
+    border-radius: 10px;
+    padding: 10px 50px;
+    text-align: center;
+    color: var(--white);
+    box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.offer p {
+    line-height: 25px;
+}
+
+.offer-text {
+    font-weight: 600;
+}
+
+.form {
+    margin-top: 10%;
+    background: var(--white);
+    border-radius: 10px;
+    box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+
+.input-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.input-form input {
+    padding: 15px;
+    border: solid var(--grayish-blue) 0.5px;
+    border-radius: 5px;
+    outline-color: #818181;
+}
+
+/* .input-form input:focus {
+    outline-color: var(--red);
+    background-image: url("../images/icon-error.svg");
+    
+} */
+
+.input-form label {
+    margin-top: 2%;
+    font-style: italic;
+    text-align: end;
+    font-size: 10px;
+    color: var(--red);
+    font-weight: 500;
+}
+
+.input-button {
+    outline: none;
+    border: none !important;
+    color: white;
+    background: var(--green);
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+}
+
+.form p {
+    text-align: center;
+    font-size: 12px;
+    padding: 0 15px;
+    color: var(--grayish-blue);
+}
+
+.text-terms {
+    color: var(--red);
+    font-weight: 500;
+}
+
+/* Laptop */
+
+@media screen and (min-width: 769px){ 
+    body {
+        background-image: url("../images/bg-intro-desktop.png");
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+        /* width: 100vw; 
+        height: 100vh; */
+        margin: 7% 11%;
+    }
+
+    .container-left {
+        width: 50%;
+    }
+
+    .container-left h1 {
+        font-size: 2.2em;
+        width: 60%;
+        text-align: left;
+    }
+
+    .container-left p {
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        width: 90%;
+    }
+    
+    .offer {
+        margin-top: 0;
+    }
+
+    .form p {
+        padding: 0 30px;
+    }
+}
