@@ -22,7 +22,7 @@ button.addEventListener('click', function () {
     if (firstNameValue == null || firstNameValue.length == 0) {
 
         firstNameLabel.style.display = 'inline';
-        firstNameLabel.textContent = 'Firt Name cannot be empty';
+        firstNameLabel.textContent = 'First Name cannot be empty';
         firstName.style.outlineColor = "#FF7A7A";
         firstName.focus();
     }
