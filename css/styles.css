@@ -14,7 +14,7 @@
     box-sizing: border-box;
 }
 
-/* Mobiel First Web Design */
+/* Mobiel First */
 
 body {
     background-image: url("../images/bg-intro-mobile.png");
@@ -70,7 +70,7 @@ body {
     background: var(--white);
     border-radius: 10px;
     box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.2);
-    padding: 15px;
+    padding: 20px 20px;
 }
 
 .input-form {
@@ -124,6 +124,10 @@ body {
     font-weight: 500;
 }
 
+.validation-error {
+    
+}
+
 /* Laptop */
 
 @media screen and (min-width: 769px){ 
@@ -137,8 +141,6 @@ body {
         align-items: center;
         justify-content: center;
         vertical-align: middle;
-        /* width: 100vw; 
-        height: 100vh; */
         margin: 7% 11%;
     }
 
@@ -161,6 +163,10 @@ body {
     
     .offer {
         margin-top: 0;
+    }
+
+    .form {
+        padding: 25px 30px;
     }
 
     .form p {
